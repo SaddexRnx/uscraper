@@ -1,9 +1,10 @@
 # Ultra Scraper — Frontend
 
-A clean, professional SaaS-style dashboard for the **Ultra Scraper** backend. Built with React 19, TanStack Start/Router, Tailwind CSS v4, shadcn/ui and Lucide icons. Deployed at **https://uscraper.lovable.app**.
+A clean, professional SaaS-style dashboard for the **Ultra Scraper** backend. Built with React 19, TanStack Start/Router, Tailwind CSS v4, shadcn/ui and Lucide icons. Live at **https://uscraper.duckdns.org/**.
 
-> **Backend repo:** https://github.com/SaddexRnx/uscraper
-> **Built on top of:** [Scrapling](https://github.com/d4vinci/Scrapling) (trimmed down to ~500 lines of orchestration for speed).
+> **Backend repo:** https://github.com/SaddexRnx/ultra_fork
+> **Upstream:** [Scrapling by d4vinci](https://github.com/d4vinci/Scrapling) — trimmed down to ~500 lines of orchestration for speed.
+
 
 ---
 
@@ -143,4 +144,12 @@ The app targets Cloudflare Workers via TanStack Start's edge output. Any static 
 - SSR is disabled on routes that touch `localStorage` (login, index redirect).
 - History is local-first; the backend has its own `/history` endpoint you can wire in if you want cross-device history.
 
-Contact the admin on Telegram: **[@Saddex_x](https://t.me/Saddex_x)**.
+---
+
+## Credits & thanks
+
+- **Upstream:** [Scrapling by d4vinci](https://github.com/d4vinci/Scrapling) — the framework this project stands on. If you like it, **give it a ⭐**.
+- If you like **Ultra Scraper**, a ⭐ on this repo means a lot.
+- Built by **Saddex** — portfolio: https://saddexrnx.github.io/
+- Contact / trial codes on Telegram: **[@Saddex_x](https://t.me/Saddex_x)**
+
