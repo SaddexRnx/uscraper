@@ -81,9 +81,6 @@ function LoginPage() {
                     className="h-11 font-mono text-sm"
                     autoFocus
                   />
-                  <p className="text-xs text-muted-foreground">
-                    Tokens starting with <code className="font-mono">ADMIN-</code> unlock the admin panel.
-                  </p>
                 </div>
                 <Button type="submit" size="lg" className="h-11 w-full">
                   Log in
