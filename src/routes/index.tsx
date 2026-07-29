@@ -35,7 +35,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Extract structured data from any website using CSS selectors, with anti-bot bypass, caching, and one-click JSON/CSV export.",
+          "Ultra Scraper is a professional web scraping dashboard for extracting data from any URL using CSS selectors with anti-bot bypass and instant export.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
