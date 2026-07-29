@@ -113,6 +113,27 @@ function LoginPage() {
           </Tabs>
         </div>
 
+        <a
+          href="https://t.me/Saddex_x"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 flex items-center justify-between rounded-xl border border-border bg-card p-4 shadow-sm transition-colors hover:bg-muted/40"
+        >
+          <div className="flex items-center gap-3">
+            <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-muted/50">
+              <MessageCircle className="h-4 w-4 text-foreground" />
+            </div>
+            <div>
+              <p className="text-sm font-medium">Need a code?</p>
+              <p className="text-xs text-muted-foreground">
+                Contact admin on Telegram: <span className="font-mono">@Saddex_x</span>
+              </p>
+            </div>
+          </div>
+          <Send className="h-4 w-4 text-muted-foreground" />
+        </a>
+
+
         <p className="mt-6 text-center text-xs text-muted-foreground">
           By continuing you agree to our terms of service and acceptable use policy.
         </p>
