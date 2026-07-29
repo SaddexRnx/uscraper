@@ -76,9 +76,11 @@ export async function apiRequest<T = unknown>(
     const text = await res.text();
     const json = text ? safeParse(text) : null;
     if (!res.ok) {
-      const msg =
-        (json && typeof json === "object" && "message" in json && String((json as Record<string, unknown>).message)) ||
-        `Request failed (${res.status})`;
+      let msg = `Request failed (${res.status})`;
+      if (json && typeof json === "object" && "message" in json) {
+        const m = (json as Record<string, unknown>).message;
+        if (typeof m === "string" && m) msg = m;
+      }
       throw new ApiError(msg, res.status);
     }
     return json as T;
