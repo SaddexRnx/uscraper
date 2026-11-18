@@ -4,6 +4,10 @@ A browser dashboard for the [Ultra Scraper](https://github.com/SaddexRnx/ultra_f
 
 Built with React 19, TanStack Start, Tailwind CSS v4, shadcn/ui, and Lucide.
 
+## About
+
+This is the frontend I wanted for the Ultra Scraper API: something quick to use without reading docs twice. I'm Saddek, a developer in Algeria, and I build a lot of small developer tools. See the rest at [saddexrnx.github.io](https://saddexrnx.github.io) or drop me a message on [Telegram](https://t.me/Saddex_x).
+
 ## What it does
 
 The backend handles the scraping and tries progressively heavier methods when a site fights back (curl_cffi, then a stealth browser, then an optional paid proxy). This app is the interface on top of it.
